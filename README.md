@@ -1,19 +1,25 @@
-# Voice Assistant Service
+# Voice Assistant using Twilio Programmable Voice
 
-## Description
-This project uses Twilio Programmable Voice to handle inbound phone calls.
-The system provides automated voice assistance and call routing.
+## Overview
+This project implements an automated voice call handling system using Twilio Programmable Voice.
+It is designed to answer incoming phone calls, play voice prompts, and route calls automatically
+based on predefined logic.
 
 ## Use case
-- Receive inbound calls
-- Play automated voice responses
-- Route calls based on user input
-- Billing is based strictly on Twilio usage
+- Incoming customer support calls
+- Automated IVR (Interactive Voice Response)
+- Voice-based virtual assistant
+- Call routing and basic call automation
 
-## Technology
+## Technology stack
 - Twilio Programmable Voice
-- Webhooks for call control
+- HTTP webhook (TwiML)
+- Node.js or Python backend (planned)
 
-## Contact
-Email: contact@example.com
+## Status
+This repository currently contains project documentation.
+The backend implementation will be added after account verification is completed.
+
+## Author
+Independent developer experimenting with Twilio voice automation.
 
